@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+  <testcase name='' description='script generated from Web Designer' author='Valeria_Blanco_CAYUSE@appvance.com' version='webDesigner'>
+    <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
+    <fallback useFallback='true'></fallback>
+    <shadowDOM useShadowDOM='true'></shadowDOM>
+    <step action='navigateTo' value='"https://demosite.appvance.com/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b63e91ab-98e5-46f7-b661-8d00cace0f68' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='if' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7dde8f93-1e42-4aa9-a528-2ee36a7eb5b7' uiType='conditional'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='assertTextPresent("Rails");' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='assert' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value='' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='store' value='true' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='c47c6f57-59c7-4ac0-8ed7-a5e93f9c38de' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='var1' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='endif' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d16074bc-be90-4c11-9cfb-f37a7ce21a7b' uiType='end' sibling='7dde8f93-1e42-4aa9-a528-2ee36a7eb5b7'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='if' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9a6d178a-7536-4dfc-8b10-965c05422ce5' uiType='conditional'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='verifyContainsText(span(any("Ruby on Rails Tote", "info")));' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='store' value='true' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='74957f85-6813-40ef-833f-e9b3cfd07a16' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='var2' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='else' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='2adc0e67-6ae5-4bb9-8985-845674076c75' uiType='conditional'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='store' value='false' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='c62f8976-738e-45d2-82ce-3ff01eb91a45' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='var2' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='endif' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b9dfbebc-9fc3-4099-aef5-3326eb241e88' uiType='end' sibling='2adc0e67-6ae5-4bb9-8985-845674076c75'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='log' value='var2' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='32c887cc-edea-4817-9c4c-59782c06435d' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+  </testcase>
