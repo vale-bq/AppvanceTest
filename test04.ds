@@ -23,13 +23,22 @@
     </step>
     <step action='if' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9a6d178a-7536-4dfc-8b10-965c05422ce5' uiType='conditional'>
       <dialect type='sahi'>
-        <accessor type='unknown' value='verifyContainsText(span(any("Ruby on Rails Tote", "info")));' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='verifyContainsText(span(any("Ruby on Rails Tote")));' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='verifyContainsText(span(any("Ruby on Rails Tote", "info")));' selected='false' fallback='true'></accessor>
         <accessor type='unknown' value='' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
     <step action='store' value='true' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='74957f85-6813-40ef-833f-e9b3cfd07a16' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value='var2' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='9e046a55-d6d9-47e8-97a9-24849fc3012f' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='filePath' value='' selected='false' fallback='true'></accessor>
+        <accessor type='filePath' value='"{ds}/test03.ds"' selected='true' fallback='true'></accessor>
+        <accessor type='filePath' value='i' selected='false' fallback='true'></accessor>
+        <accessor type='filePath' value='l' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
     <step action='else' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='2adc0e67-6ae5-4bb9-8985-845674076c75' uiType='conditional'>
