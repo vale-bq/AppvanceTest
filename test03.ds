@@ -46,4 +46,9 @@
     <step action='log' value='var2' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='32c887cc-edea-4817-9c4c-59782c06435d' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
+    <step action='log' value='"Test"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f5e4ea2e-0a7b-49c9-999c-97765caceea6' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
   </testcase>
