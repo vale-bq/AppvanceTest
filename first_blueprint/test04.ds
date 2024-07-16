@@ -32,10 +32,10 @@
         <accessor type='unknown' value='var2' selected='true' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='else' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='2adc0e67-6ae5-4bb9-8985-845674076c75' uiType='conditional'>
+    <step action='else' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='2adc0e67-6ae5-4bb9-8985-845674076c75' uiType='conditional'>
       <dialect type='sahi'></dialect>
     </step>
-    <step action='store' value='false' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='c62f8976-738e-45d2-82ce-3ff01eb91a45' uiType='base'>
+    <step action='store' value='false' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='c62f8976-738e-45d2-82ce-3ff01eb91a45' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value='var2' selected='true' fallback='true'></accessor>
       </dialect>
