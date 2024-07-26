@@ -1,0 +1,14 @@
+{
+	"customActions": [],
+	"validations": [
+		{
+			"triggerType": "text",
+			"validationType": "element",
+			"disabled": false,
+			"passType": "pass",
+			"name": "ValidationTest",
+			"match": "Text",
+			"target": "link(\"Home\")"
+		}
+	]
+}
